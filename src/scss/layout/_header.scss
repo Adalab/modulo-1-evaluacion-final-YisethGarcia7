@@ -1,5 +1,38 @@
 .page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.menu {
+
+background-color:darkolivegreen;
+width: 36.9px;
+height: 35.9px ;
+
+
+}
+
+.cover {
+        background-image: url('/images/cover.png');
+        background-repeat: no-repeat;
+        background-size:cover;     
+        background-position: center; 
+        background-attachment:inherit;
+        width: 1300x;
+        height: 800px;
+
+}
+.start {
+text-align: center;
+top: 73%;
+right: 33%;
+font-size:xx-large;
+position: absolute;
+color: white;
+
+
+
+
+
 }
