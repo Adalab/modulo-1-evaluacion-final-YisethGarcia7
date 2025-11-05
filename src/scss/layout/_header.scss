@@ -1,4 +1,7 @@
+@use '../core/variables' as vars;
+
 .page__header {
+
   
     height: 100vh;
     width: auto;
@@ -13,8 +16,7 @@
     width: 36.9px;
     height: 35.9px ;
     padding: 10px;
-    left: 0;
-    position: relative;
+    position: fixed;
     z-index: 2;
 
 }
@@ -66,20 +68,16 @@
 .scroll {
 
         position: absolute;
-        bottom: 2rem;
         z-index: 10;
-        border-radius: 50%;
+        border-radius: 57%;
+        right: 52%;
         padding: 1rem;
         display: flex;
         align-items: center;
         background-color: white; 
-        right: 52%;
-
+        bottom: 2rem;
+        
 }
-
-
-
-
 
 
 

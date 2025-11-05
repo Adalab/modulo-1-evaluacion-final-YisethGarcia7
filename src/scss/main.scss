@@ -5,3 +5,59 @@
 @use 'layout/header';
 @use 'layout/footer';
 @use 'pages/index';
+
+
+.page__main {
+        
+     position: relative;  
+    
+
+}
+
+.content_main {
+
+        display:list-item;
+        justify-items: center; 
+        width: 100vw;
+        padding: 20px;
+        gap: 15%;
+
+}
+
+.main_store {
+        color: #6c933e;
+        margin-right: 50%;
+        font-size:larger;
+       
+
+}
+
+.shop {
+        font-size: 2rem;
+        margin-right: 50%;
+
+
+
+}
+
+.content_shop {
+
+         font-size: xx-large;
+         
+
+}
+
+.button{
+
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 2rem;
+        border: 3px solid #6c9f43;
+        color: #6c9f43;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 20px;   
+       
+
+
+}
